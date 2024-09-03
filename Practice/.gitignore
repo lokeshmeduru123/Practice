@@ -1,0 +1,20 @@
+# .gitignore
+
+# Terraform directories and files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+.terraform.d
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
