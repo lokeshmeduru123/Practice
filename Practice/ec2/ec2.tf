@@ -3,6 +3,7 @@ resource "aws_instance" "docker" {
     vpc_security_group_ids = ["sg-0fbd7c454bc70bbba"]
     instance_type = "t3.micro"
 
+# docker installation script
 user_data = <<EOF
 #!/bin/bash
 sudo yum install -y yum-utils
